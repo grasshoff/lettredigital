@@ -1,11 +1,39 @@
 site_name: Lettre.digital
-site_url: https://lettredigital.github.io
+site_url: https://grasshoff.github.io/lettredigital/
 site_author: Gerd Graßhoff
 
 nav:
-  - About: index.md
+#  - About: index.md
+  - Inhalte:
+    - Comp.books: m1.md
+    - Erstellung: m2.md
+    - anNotes: m3.md
 theme:
-  name: readthedocs
+  name: material
+  font:
+    text: Butler
+    code: Cambria
+  icon:
+    logo: material/library
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.expand
+  palette:
+    scheme: default
+    primary: indigo
   highlightjs: true
   hljs_languages:
     - yaml
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+extra_css:
+  - https://unpkg.com/mermaid@7.1.2/dist/mermaid.css
+extra_javascript:
+  - https://unpkg.com/mermaid@7.1.2/dist/mermaid.min.js
+plugins:
+  - search
