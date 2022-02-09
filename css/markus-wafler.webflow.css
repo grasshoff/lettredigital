@@ -315,11 +315,13 @@ figcaption {
 }
 
 .heading-jumbo {
-  margin-top: 10px;
+  display: block;
+  margin-top: -200px;
   margin-bottom: 10px;
   background-color: #585151;
   font-size: 64px;
   line-height: 80px;
+  text-decoration: overline;
   text-transform: none;
 }
 
@@ -569,6 +571,7 @@ figcaption {
   display: flex;
   height: 620px;
   margin-bottom: 100px;
+  padding-bottom: 0px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -578,9 +581,6 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   background-color: #fffefe;
-  background-image: url('../images/hamidi_small.jpg');
-  background-size: auto;
-  background-repeat: no-repeat;
   color: #fff;
 }
 
