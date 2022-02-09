@@ -664,6 +664,9 @@ p {
 }
 
 .heading-2.light {
+  display: block;
+  margin-right: -114px;
+  padding-right: 0px;
   color: #8f7777;
 }
 
@@ -2792,6 +2795,15 @@ p {
   margin-bottom: 70px;
   font-family: Butler, sans-serif;
   font-size: 34px;
+}
+
+.bold-text {
+  margin-right: 140px;
+}
+
+.image-4 {
+  position: relative;
+  margin-right: 600px;
 }
 
 @media screen and (min-width: 1920px) {
