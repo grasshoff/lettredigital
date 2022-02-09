@@ -92,6 +92,7 @@ p {
 }
 
 .paragraph.above-title {
+  margin-bottom: 98px;
   color: rgba(58, 58, 58, 0.75);
   font-size: 0px;
 }
@@ -196,6 +197,7 @@ p {
   display: -ms-flexbox;
   display: flex;
   margin-top: 11vw;
+  margin-bottom: -29px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -272,6 +274,7 @@ p {
 .wrapper.horizontal.middle-title-row {
   position: relative;
   top: -3.75vw;
+  margin-bottom: -3px;
 }
 
 .wrapper.horizontal.last-title-row {
@@ -972,6 +975,7 @@ p {
   display: flex;
   margin-bottom: -3px;
   padding-top: 140px;
+  padding-bottom: 77px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2765,6 +2769,12 @@ p {
 .html-embed {
   max-height: 45px;
   margin-bottom: 6px;
+}
+
+.image-2 {
+  padding-right: 0px;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 @media screen and (min-width: 1920px) {
