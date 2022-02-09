@@ -474,6 +474,7 @@ figcaption {
 
 .logo-image {
   display: block;
+  min-width: 348px;
 }
 
 .navigation-items {
