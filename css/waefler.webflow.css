@@ -179,6 +179,8 @@ figcaption {
   max-width: 1140px;
   margin-right: auto;
   margin-left: auto;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
 }
 
 .paragraph-tiny {
@@ -2354,3 +2356,4 @@ figcaption {
     grid-row-end: 7;
   }
 }
+
